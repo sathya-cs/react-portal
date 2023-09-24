@@ -1,0 +1,20 @@
+.user-list {
+  width: 90%;
+  max-width: 40rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.user-list .list p {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border: 2px solid #5a5ee8;
+  margin-bottom: 1rem;
+}
+
+.user-list .list p span {
+  font-size: 1.2rem;
+}

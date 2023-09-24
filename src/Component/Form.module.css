@@ -1,0 +1,49 @@
+.form {
+  width: 90%;
+  max-width: 40rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.form label {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(61, 58, 58);
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  color: rgb(103, 100, 100);
+  padding: 0.5rem;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  border: 1px solid #6c6767;
+  border-radius: 8px;
+}
+
+.form input:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px gray;
+}
+
+.form input::placeholder {
+  font-size: 1rem;
+}
+
+.form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background-color: #5a5ee8;
+  color: white;
+  cursor: pointer;
+}
