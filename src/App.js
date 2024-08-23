@@ -5,7 +5,7 @@ import UserList from './Component/UserList';
 
 const users = [
   { name: 'sathya', age: 14 },
-  { name: 'jeeva', age: 32 },
+  { name: 'selva', age: 32 },
   { name: 'arun', age: 12 },
 ];
 
